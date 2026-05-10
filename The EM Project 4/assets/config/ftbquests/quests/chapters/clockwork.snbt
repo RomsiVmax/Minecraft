@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "clockwork"
+	group: "6E91402A01437D7F"
+	id: "689278B833A304EA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6C24EA6082C57BA2"]
+			id: "5220D42B8A063F79"
+			rewards: [{
+				id: "1E86D9362CE7B416"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Mit VS:Clockwork kann Physics Entities erstellen und benutzen"
+			tasks: [{
+				id: "7D1321D47D3308FB"
+				title: "Clockwork"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5220D42B8A063F79"]
+			id: "501C61852AC7D27F"
+			rewards: [{
+				id: "3CC2BD5860443733"
+				type: "xp"
+				xp: 4000
+			}]
+			subtitle: "Hiermit beginnt man (oder so)"
+			tasks: [{
+				id: "261FBCF19B9FB55F"
+				item: "vs_clockwork:wanderlite_crystal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "Clockwork"
+}

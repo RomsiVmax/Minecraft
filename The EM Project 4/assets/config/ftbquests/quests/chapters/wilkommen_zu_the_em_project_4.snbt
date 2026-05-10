@@ -1,0 +1,88 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wilkommen_zu_the_em_project_4"
+	group: ""
+	id: "6C24EA6082C57BA2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3C2EB7094361FE03"
+			rewards: [{
+				id: "7DCC91DBA5DB89A6"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Viel Spaß!"
+			tasks: [{
+				id: "4A55AF8DCA9C0FFF"
+				title: "Wilkommen zu The EM Project 4!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C2EB7094361FE03"]
+			description: ["&lKlicke den Haken an, um die Quest zu erledigen!&r&o&n"]
+			id: "083E7EAFA9360334"
+			rewards: [
+				{
+					command: "/tag @s NichtDumm"
+					elevate_perms: true
+					id: "4981717085C63C9E"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "558FFB3B1C8077D8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Gehe mal mit der Maus nach ganz links! Es gibt noch weitere Chapters, diese sind voll mit Quests"
+			tasks: [{
+				id: "276658E7B705CEDA"
+				title: "Quests"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3C2EB7094361FE03"]
+			id: "1E1DDB2A3DC53661"
+			rewards: [{
+				id: "36F889EF7E7C4F1B"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Ich glaube ich muss das nicht erklären..."
+			tasks: [{
+				id: "6CBAE8D0AE705E8D"
+				title: "Simple Voice Chat"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1E1DDB2A3DC53661"
+				"083E7EAFA9360334"
+			]
+			dependency_requirement: "one_completed"
+			id: "0446965F4493431F"
+			subtitle: "Mehr musst du für den Anfang nicht wissen"
+			tasks: [{
+				id: "0FC65A4BC3B40600"
+				title: "Und los!"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+	]
+	title: "Wilkommen zu The EM Project 4!"
+}

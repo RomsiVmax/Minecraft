@@ -1,0 +1,91 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: "5C718A49A5633273"
+	id: "16C6EE7F81E22F54"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6C24EA6082C57BA2"]
+			id: "5019A8DBCB0310A8"
+			rewards: [{
+				id: "6ACCE07687CFC745"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Der Aether ist eine neue Dimension. Man kann sie betreten, indem man ein Netherportal aus Glowstone mit einem Wassereimer an\"zündet\""
+			tasks: [
+				{
+					id: "4792535890C513E4"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+				{
+					id: "14227650147E907B"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			title: "Der Aether"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5019A8DBCB0310A8"]
+			id: "282C75915C9DB950"
+			subtitle: "Die Aethermod fügt Handschuhe als Rüstungsteile hinzu"
+			tasks: [{
+				id: "66FCD9C39C55696C"
+				item: {
+					Count: 1
+					id: "aether:iron_gloves"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5019A8DBCB0310A8"]
+			id: "5B86AEE2F5B69748"
+			rewards: [
+				{
+					id: "00FF3360F2580717"
+					item: "aether:golden_gummy_swet"
+					type: "item"
+				}
+				{
+					id: "58CCC81A7B98A909"
+					item: "aether_redux:vanilla_gummy_swet"
+					type: "item"
+				}
+			]
+			subtitle: "Der Aether fügt gefährliche Slimes hinzu. Kille sie für Swet Gel, womit du Gummy Swets herstellen kannst"
+			tasks: [{
+				id: "7C8413875226D129"
+				item: "aether:blue_gummy_swet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5019A8DBCB0310A8"]
+			id: "2A273EE700E1CF31"
+			tasks: [{
+				id: "028B56A16A03669D"
+				title: "Normale Tools werden dir im Aether nichts bringen. Nutze die Aether-Ressourcen, um dir bessere Tools zu machen"
+				type: "checkmark"
+			}]
+			title: "Tools"
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+	title: "Aether"
+}

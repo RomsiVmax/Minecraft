@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "darkghostbrine"
+	group: "34411558D31753DE"
+	id: "47BBF762725483C0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["6C24EA6082C57BA2"]
+		id: "3B6FE6DB25AA8858"
+		rewards: [{
+			id: "55576A158E76E75E"
+			type: "xp"
+			xp: 1000
+		}]
+		tasks: [{
+			icon: "darkghostbrine:darkghostbrine_entity_spawn_egg"
+			id: "1CEE9203D1640A72"
+			structure: "darkghostbrine:darkghostbrine_spawn_struktur"
+			title: "Ja du bist gekocht"
+			type: "structure"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Darkghostbrine"
+}

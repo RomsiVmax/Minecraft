@@ -1,0 +1,78 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "5027659B9D5F7C7C"
+	id: "14F6927FEF15350B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6C24EA6082C57BA2"]
+			id: "7879D93B55FF06EB"
+			subtitle: "Ad Astra ist eine Technik-Mod mit dem Ziel, auf andere Planeten zu fliegen"
+			tasks: [{
+				id: "4E39BEC4885005A9"
+				item: "ad_astra:coal_generator"
+				type: "item"
+			}]
+			title: "Ad Astra"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7879D93B55FF06EB"]
+			id: "1898B0C380FA5E76"
+			subtitle: "Presst Ingots zu Sheets"
+			tasks: [{
+				id: "3189E4FBCF087C31"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7879D93B55FF06EB"]
+			id: "61CB09C24D63DD33"
+			subtitle: "Stellt Stahl aus Kohle und Eisen her"
+			tasks: [{
+				id: "3A4D0B25142EAA39"
+				item: "ad_astra:etrionic_blast_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7879D93B55FF06EB"]
+			id: "5F6E1E9477E9C2D2"
+			subtitle: "Transportiert Strom"
+			tasks: [{
+				id: "2297757786B4286D"
+				item: "ad_astra:steel_cable"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7879D93B55FF06EB"]
+			id: "42E0191460B1A03E"
+			rewards: [{
+				id: "457A8B32BE4C4190"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Google nach weiteren Informationen"
+			tasks: [{
+				id: "1A2DEFD836F35F48"
+				title: "Weitere Informationen"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+	title: "Ad Astra"
+}

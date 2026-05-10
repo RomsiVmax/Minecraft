@@ -1,0 +1,434 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "5027659B9D5F7C7C"
+	id: "2AD900BC5F3B97FA"
+	images: [{
+		height: 2.5d
+		image: "better_create:textures/better-create.png"
+		rotation: 0.0d
+		width: 2.5d
+		x: 0.0d
+		y: -3.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6C24EA6082C57BA2"]
+			description: [""]
+			id: "51E928FEAEAC2C25"
+			rewards: [{
+				count: 63
+				id: "5EB9C8B5041434A8"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "Das ist die Hauptzutat für fast alles aus der Create-Mod"
+			tasks: [{
+				id: "12092B59A337A995"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Dein erstes Item von der Create-Mod"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51E928FEAEAC2C25"]
+			hide_dependent_lines: true
+			id: "2ED82E2D24D2983B"
+			rewards: [{
+				id: "0EAD7E14C05ED9AD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3856F583A746905B"
+				title: "Informiere dich über die Create-Mod für Automatisierungen"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51E928FEAEAC2C25"]
+			description: ["Create hat verschiedene Addons, die neue Items, Funktionen, etc. adden."]
+			id: "32EE0FCD409BF517"
+			tasks: [{
+				id: "33F4D20644AF165C"
+				title: "Addons"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32EE0FCD409BF517"]
+			id: "72BF3A3FB100FAE8"
+			subtitle: "Fügt verschiedenes hinzu, das wichtigste hier ist aber das Crafting-Rezept für den Creative Blazecake."
+			tasks: [{
+				id: "46CA43395DE4701D"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			title: "Create Ultimate Recipes"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32EE0FCD409BF517"]
+			id: "3FC81763AAA6BF61"
+			subtitle: "Diese Mod fügt Kanonen hinzu"
+			tasks: [{
+				id: "1621562CF1FFA334"
+				item: "createbigcannons:cannon_mount"
+				type: "item"
+			}]
+			title: "Create Big Cannons"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32EE0FCD409BF517"]
+			id: "109575B59242054C"
+			subtitle: "Ein Technik-Addon für Create (kompatibel mit Ad Astra)"
+			tasks: [{
+				id: "699AA2991F6D8636"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			title: "Create: Crafts \\& Additions"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["32EE0FCD409BF517"]
+			id: "65D4AA86AD7AE5B7"
+			subtitle: "OP Equip? Ja!"
+			tasks: [{
+				id: "4D503CA194B217EC"
+				item: "create_sa:steam_engine"
+				type: "item"
+			}]
+			title: "Create Stuff 'N Additions"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["32EE0FCD409BF517"]
+			id: "31BE0B7569CC84D7"
+			subtitle: "Hiermit bekommst du sehr einfach sehr gute Enchants, auch über der maximalen Stufe in Vanilla Minecraft"
+			tasks: [{
+				id: "0E161C8A25AD7F1D"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			title: "Create: Enchantment Industry"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32EE0FCD409BF517"]
+			id: "5EBF8CCD9F87D922"
+			subtitle: "Ueber den Rest der Mod außer dieser Glocke sag ich mal nichts..."
+			tasks: [{
+				id: "0955225ECE0C23C9"
+				item: "createbb:brass_call_bell"
+				type: "item"
+			}]
+			title: "Create: Broken Bad"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["32EE0FCD409BF517"]
+			id: "0B24D9FD07F3167D"
+			subtitle: "Fossile Energie"
+			tasks: [
+				{
+					id: "2400D0DF109314F1"
+					item: "createdieselgenerators:pumpjack_crank"
+					type: "item"
+				}
+				{
+					id: "283BBF6E096E7743"
+					item: "createdieselgenerators:pumpjack_hole"
+					type: "item"
+				}
+				{
+					id: "6B27C152D1DEEC44"
+					item: "createdieselgenerators:pumpjack_bearing"
+					type: "item"
+				}
+				{
+					id: "2427CD213A2D93D9"
+					item: "createdieselgenerators:pumpjack_head"
+					type: "item"
+				}
+			]
+			title: "Create: Diesel Generators"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["32EE0FCD409BF517"]
+			id: "3A66B5430384CEC9"
+			rewards: [{
+				count: 20
+				id: "7AB29BBFA3D3F3F2"
+				item: "numismatics:sun"
+				type: "item"
+			}]
+			subtitle: "Eine Währung auf die Create-Art! (Ich empfehle dir DRINGENDSTENS, die Suns zu behalten)"
+			tasks: [{
+				id: "4AE2B713F5617863"
+				item: "numismatics:vendor"
+				type: "item"
+			}]
+			title: "Create: Numismatics"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["32EE0FCD409BF517"]
+			id: "614F0DA72A699121"
+			subtitle: "Nutzt Valkyrien Skies 2 dafür, dass man mit Create-Contraptions interagieren kann"
+			tasks: [{
+				id: "7809641E48C9F048"
+				item: "create_interactive:interact_me"
+				type: "item"
+			}]
+			title: "Create: Interactive"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["70D722EBEC30442A"]
+			id: "36357989E0145EF3"
+			rewards: [{
+				id: "370DF703F10C9197"
+				item: "createpropulsion:creative_thruster"
+				type: "item"
+			}]
+			subtitle: "Valkyrien Skies 2 x Create Compat, in fast allem besser und billiger als Clockwork"
+			tasks: [{
+				id: "57598B3C88A2B3C1"
+				item: "createpropulsion:thruster"
+				type: "item"
+			}]
+			title: "Create: Propulsion"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3FC81763AAA6BF61"]
+			id: "4BCF5313FB014F19"
+			subtitle: "Automatisierungen für Create Big Cannons"
+			tasks: [{
+				id: "112D78156204AC04"
+				item: "create_radar:radar_plate_block"
+				type: "item"
+			}]
+			title: "Create: Radars"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32EE0FCD409BF517"]
+			id: "09276DB72EC0C9FF"
+			subtitle: "Mehr Designmöglichkeiten für Züge"
+			tasks: [{
+				id: "02374739D5A3AED5"
+				item: "railways:track_oak"
+				type: "item"
+			}]
+			title: "Create: Steam'n Rails"
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["32EE0FCD409BF517"]
+			id: "2BEB5DDE8006885C"
+			subtitle: "Wie Create: Crafts \\& Additions, nur ein bisschen komplexer und effizienter"
+			tasks: [{
+				id: "7C6FAB8303DC1010"
+				item: "tfmg:cast_iron_ingot"
+				type: "item"
+			}]
+			title: "Create: The Factory Must Grow"
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["32EE0FCD409BF517"]
+			id: "4FCE5317547FBC5A"
+			subtitle: "Linkingverbesserungsmod, manchmal wichtig für Physics Entities"
+			tasks: [{
+				id: "2DBD1F4EE21B24C0"
+				item: "create_tweaked_controllers:tweaked_linked_controller"
+				type: "item"
+			}]
+			title: "Create: Tweaked Controllers"
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["32EE0FCD409BF517"]
+			id: "70D722EBEC30442A"
+			subtitle: "Create x VS 2 Compat"
+			tasks: [{
+				id: "35A332F91DF4022A"
+				item: "vs_clockwork:gyro"
+				type: "item"
+			}]
+			title: "Clockwork"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["72770E9921733A24"]
+			id: "12A396ABFA27AE9A"
+			subtitle: "Pressen pressen Ingots zu Sheets"
+			tasks: [{
+				id: "3EA8D5697C8EF11B"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72770E9921733A24"]
+			id: "21F74D663831C490"
+			subtitle: "Beginne mit der Generation von Energie"
+			tasks: [{
+				id: "5B0ACE7ECBFE0D5D"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51E928FEAEAC2C25"]
+			id: "042B4102CECE1C26"
+			rewards: [{
+				count: 56
+				id: "0D2A84D851F90832"
+				item: "create:shaft"
+				type: "item"
+			}]
+			subtitle: "Shafts werden zur Energieübertragung benutzt"
+			tasks: [{
+				count: 8L
+				id: "64446E28C0D52EA0"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["042B4102CECE1C26"]
+			id: "72770E9921733A24"
+			subtitle: "Du wirst sie brauchen. Drücke und halte am besten die Taste \"W\", während du über sie hoverst, um ein Ingame-Tutorial zu erhalten!"
+			tasks: [{
+				id: "751A4AD000FF4B1E"
+				title: "Basicmaschinen"
+				type: "checkmark"
+			}]
+			title: "Basicblöcke"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72770E9921733A24"]
+			id: "772B6B13968508BF"
+			subtitle: "Dieser wird später noch zum Herstellen von Brass benötigt"
+			tasks: [{
+				id: "39F1C5C5ABCE9F07"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["51E928FEAEAC2C25"]
+			id: "4C6E26138DF4FEC1"
+			subtitle: "Manche Blöcke sind zum Drehen von Rotationsenergie nötig. Die Gearbox und die vertical Gearbox sind dabei die einfachste Methode"
+			tasks: [
+				{
+					id: "37C5CC46E99A0E5F"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "4C29F9EFF05C66C8"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+			]
+			title: "Energieübertragung"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4C6E26138DF4FEC1"]
+			id: "4616481200D13FE7"
+			subtitle: "In vielen Situationen besser als Gearboxen, aber eher unbekannt"
+			tasks: [{
+				id: "7AC887C62AD60427"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4C6E26138DF4FEC1"]
+			dependency_requirement: "one_completed"
+			id: "5431EE126592DF8F"
+			subtitle: "Du benötigst diese auch, um deine Maschinen auf einem einfachen Weg schneller laufen zu lassen"
+			tasks: [
+				{
+					id: "73BEE17D207AC150"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "68E7A4587BC2423E"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "Zahnräder"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4C6E26138DF4FEC1"]
+			id: "787F835835C717B9"
+			subtitle: "Dieses Item ist sehr wichtig, aber erst einmal schwierig zu bekommen. Die Goggles sind ebenfalls sehr wichtig und deren Crafting-Rezept ist auch teuer."
+			tasks: [
+				{
+					id: "1ABEAAE3153D5DB0"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "1483BFCB30F7FD13"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			title: "Kontrollierung und Anpassung von Maschinen"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "Create"
+}

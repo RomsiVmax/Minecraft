@@ -1,0 +1,41 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "5027659B9D5F7C7C"
+	id: "54F47A01F65501BF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6C24EA6082C57BA2"]
+			id: "3280F2FF9A9E600A"
+			rewards: [{
+				id: "16E3D937D80DD5EA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Du kannst so alles mit Radioaktivität verseuchen und so"
+			tasks: [{
+				id: "544A2D5D6660C0A1"
+				title: "Das ist selbst mir zu komplex zum erklären"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3280F2FF9A9E600A"]
+			id: "3568113D862FA386"
+			subtitle: "Bro. Wenn. Du. Das. Schaffst. Bist. Du. Schlauer. Als. Albert. Einstein."
+			tasks: [{
+				id: "513CEC768DC2B047"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+	title: "Mekanism"
+}

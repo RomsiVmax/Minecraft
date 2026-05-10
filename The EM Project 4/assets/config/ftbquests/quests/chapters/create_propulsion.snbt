@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_propulsion"
+	group: "6E91402A01437D7F"
+	id: "2751B5BBF1B196E7"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["6C24EA6082C57BA2"]
+		id: "609E5BF6A46E22EF"
+		subtitle: "Einfach viel billiger als Clockwork"
+		tasks: [{
+			id: "756A534EE8836369"
+			item: "createpropulsion:thruster"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Create: Propulsion"
+}

@@ -1,0 +1,94 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "waystones"
+	group: "5C718A49A5633273"
+	id: "25F4AFCC3C24EEEE"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["560E5021A2DB29AD"]
+			dependency_requirement: "one_completed"
+			id: "5CC58411675291A0"
+			subtitle: "Der Standardwegstein"
+			tasks: [{
+				id: "0B2A135F60C6D916"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5CC58411675291A0"]
+			id: "45BD9053A3B34073"
+			subtitle: "Eine Variante des Standardwegsteins"
+			tasks: [{
+				id: "50CA274D915ABDD6"
+				item: "waystones:mossy_waystone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5CC58411675291A0"]
+			id: "72C651AE17F832BE"
+			subtitle: "Eine Variante des Standardwegsteins"
+			tasks: [{
+				id: "1A8DA2E89C1627A1"
+				item: "waystones:sandy_waystone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5CC58411675291A0"]
+			id: "3FA77F8A548E30BE"
+			subtitle: "Diese Waystones sind spezieller"
+			tasks: [
+				{
+					id: "5DFBD02F7DE5365D"
+					item: "waystones:deepslate_waystone"
+					type: "item"
+				}
+				{
+					id: "102F663993B768E6"
+					item: "waystones:blackstone_waystone"
+					type: "item"
+				}
+				{
+					id: "0B2AF90973A1E689"
+					item: "waystones:end_stone_waystone"
+					type: "item"
+				}
+			]
+			title: "Spezielle Waystones"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6C24EA6082C57BA2"]
+			id: "560E5021A2DB29AD"
+			rewards: [{
+				id: "76388F43B57C6E80"
+				type: "xp"
+				xp: 2000
+			}]
+			subtitle: "Waystones fügt Wegsteine zu Strukturen hinzu. Man kann sich zu diesen teleportieren"
+			tasks: [{
+				id: "4EEFE480B7CA8A22"
+				observe_type: 0
+				timer: 0L
+				title: "Waystones"
+				to_observe: "waystones:waystone"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+	]
+	title: "Waystones"
+}

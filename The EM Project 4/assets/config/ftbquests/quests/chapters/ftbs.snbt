@@ -1,0 +1,65 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ftbs"
+	group: "73AD23E8F758507D"
+	id: "2DFC7AA36D36D8ED"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6C24EA6082C57BA2"]
+			id: "1396F1946850D6CE"
+			subtitle: "Feed the Beast-Mods fügen \"Essentials\" hinzu"
+			tasks: [{
+				id: "0C5387F1A9BE122D"
+				title: "Feed the Beast"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1396F1946850D6CE"]
+			id: "0C8569DDD4FB99A8"
+			rewards: [{
+				id: "29D9E4214AA595FA"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			subtitle: "Da bist du gerade"
+			tasks: [{
+				id: "4696B1447FB80484"
+				title: "FTB Quests"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1396F1946850D6CE"]
+			id: "768F9017798BDBA4"
+			subtitle: "Neben dem Questbuch im Inventar"
+			tasks: [{
+				id: "117D92EDB05442B2"
+				title: "FTB Teams"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1396F1946850D6CE"]
+			id: "1BB0145993C66472"
+			subtitle: "Baue bis zu 64 Blöcke auf einmal ab"
+			tasks: [{
+				id: "1468E5CDCACEDE7F"
+				title: "FTB Ultmine"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+	]
+	title: "FTB's"
+}

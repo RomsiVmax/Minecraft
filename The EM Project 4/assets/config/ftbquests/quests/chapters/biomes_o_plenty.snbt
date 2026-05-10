@@ -1,0 +1,71 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "biomes_o_plenty"
+	group: "5C718A49A5633273"
+	id: "18FCB603C818F500"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6C24EA6082C57BA2"]
+			id: "6D82DD0D26D75C5B"
+			rewards: [{
+				id: "65219F6943A43E95"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Biomes O' Plenty fügt neue Biome hinzu"
+			tasks: [{
+				id: "0FB13093495CC9C7"
+				title: "Biomes O' Plenty"
+				type: "checkmark"
+			}]
+			title: "Biomes O' Plenty"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D82DD0D26D75C5B"]
+			id: "22B0836962135CF0"
+			rewards: [{
+				id: "099C6C516BDE827A"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Diese Mod fügt eine Vielzahl neuer Strukturen hinzu. Sie passen sich verschieden Mods an"
+			tasks: [{
+				id: "4895453BF67B4E12"
+				title: "Integrated Dungeons and Structures"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22B0836962135CF0"]
+			id: "2B29A7E297959A94"
+			subtitle: "Supplementaries ist eine der Core-Mods für Integrated Dungeons and Structures. Sie fügt neue kleine Blöcke, wie z. B. einen coolen, drehbaren Globus, hinzu"
+			tasks: [{
+				id: "6C26A99391A44A35"
+				title: "Supplementaries"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22B0836962135CF0"]
+			id: "5D366E1464D531BD"
+			subtitle: "Quark ist eine weitere Core-Mod für Integrated Dungeons and Structures. Sie fügt neue Blöcke und Funktionen, wie beispielsweise Auto-Walk hinzu"
+			tasks: [{
+				id: "6B306281CFD3D4BF"
+				title: "Quark"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+	]
+	title: "Biomes O' Plenty und IDaS"
+}
