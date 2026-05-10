@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "5027659B9D5F7C7C", title: "Technik-Mods" }
+		{ id: "5C718A49A5633273", title: "Generierung" }
+		{ id: "6E91402A01437D7F", title: "Valkyrien Skies" }
+		{ id: "34411558D31753DE", title: "Horror" }
+		{ id: "73AD23E8F758507D", title: "Feed the Beast" }
+	]
+}
